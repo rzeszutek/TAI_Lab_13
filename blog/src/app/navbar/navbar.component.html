@@ -1,0 +1,25 @@
+<nav>
+  <ul class = "nav">
+    <li class = "nav-item">
+      <a class= "nav-link active" [routerLink]="['/home']">Home</a>
+    </li>
+    <li class = "nav-item">
+      <a class= "nav-link active" [routerLink]="['/contact']">Contact</a>
+    </li>
+    <li class = "nav-item">
+      <a class= "nav-link active" [routerLink]="['/blog']">Blog</a>
+    </li>
+    <li class = "nav-item">
+      <a class= "nav-link active" [routerLink]="['/add-post']">Dodaj post</a>
+    </li>
+    <li>
+      <a class= "nav-link active" [routerLink]="['/login']">Zaloguj się</a>
+    </li>
+    <li>
+      <a class= "nav-link active" [routerLink]="['/signup']">Zarejestruj się</a>
+    </li>
+    <li class = "nav-item">
+      <button (click)="logOut()" class="dropdown-item">Wyloguj</button>
+    </li>
+  </ul>
+</nav>
